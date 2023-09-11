@@ -1,6 +1,5 @@
 # MY DATA STRUCTURE & ALGORITHM JOURNEY.....
 
-**09-09-2023**
 Welcome to my DSA journey! I have always aspired to secure a position in top MNC companies, and to achieve that dream, I am committed to strengthening my Data Structures and Algorithms skills. In this README, I will share my daily progress and learning experiences.
 ## Progress Update
 **Array:** I started my DSA journey by diving into the array a few days ago, and I'm thrilled to announce that I have successfully completed this topic.
