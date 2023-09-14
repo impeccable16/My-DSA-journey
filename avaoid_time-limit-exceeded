@@ -1,0 +1,13 @@
+HOW TO AVOID TIME LIMIT EXCEEDED?
+Most of the time when we run our code we face this issue. 
+When working on coding challenges, competitive programming, or any software project, we may encounter "Time Limit Exceeded" errors. These errors occur when our code takes too long to execute and exceeds the allowed time limit. 
+To avoid such issues, consider the following time constraints table:
+                           CONSTRAINTS
+O(n) , O(logn )    --    < 10^8
+O(nlogn)           --    < 10^6
+O(n^2)             --    < 10^4
+O(n^2 * logn)      --    < 2000
+O(n^3)             --    < 400
+O(n^4)             --    < 100
+O(2^n * n^2)       --    < [15...18]
+O(n!)              --    < [10...11]
