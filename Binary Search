@@ -20,7 +20,6 @@ int binarySearch(int arr[], int size, int n){
   }
  return -1;
 }
-
 int main(){
    int even[6] = {3,5,7,9,11,13};
    int odd[5] = {2,4,6,8,10};
@@ -31,3 +30,22 @@ int main(){
    cout<<eindex<<endl;
 }
 
+
+FIRST AND LAST POSITION OF AN ELEMENT IN  A SORTED ARRAY
+vector<int> searchRange(vector<int>& nums, int target) {
+        int s = -1, e = -1;
+        int n = nums.size();
+        for(int i = 0; i<n; i++){
+            if(nums[i] == target){
+                s = i;
+                break;
+            }
+        }
+        for(int i = n-1; i>=0; i--){
+            if(nums[i] == target){
+                e = i;
+                break;
+            }
+        }
+        return{s,e};
+    }
