@@ -32,7 +32,7 @@ int main(){
 
 
 FIRST AND LAST POSITION OF AN ELEMENT IN  A SORTED ARRAY
-vector<int> searchRange(vector<int>& nums, int target) {
+vector<int> searchRange(vector<int>& nums, int target){
         int s = -1, e = -1;
         int n = nums.size();
         for(int i = 0; i<n; i++){
